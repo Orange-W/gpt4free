@@ -158,6 +158,12 @@ Move `streamlit_app.py` from `./gui` to the base folder then run:
 cp gui/streamlit_app.py .
 streamlit run streamlit_app.py
 ```
+#### something modules dependencies
+```sh
+pip install streamlit pycryptodome tls_client pydantic pyyaml ua-parser user-agents fake-useragent mailgw_temporary_email selenium pypasser websocket curl_cffi retrying
+
+```
+
 
 
 ## Docker <a name="docker-instructions"></a>
